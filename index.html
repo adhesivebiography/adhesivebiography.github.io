@@ -16,7 +16,9 @@
             background-color: #fff;
             padding: 20px 40px;
             box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-            text-align: center;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
         }
         header h1 {
             margin: 0;
@@ -27,6 +29,14 @@
             margin: 0;
             font-size: 1rem;
             color: #666;
+        }
+        .home-button {
+            background-color: #007aff;
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
         }
         .container {
             max-width: 800px;
@@ -72,8 +82,11 @@
 </head>
 <body>
     <header>
-        <h1>Kevin Moses Kothapalli</h1>
-        <h2>Graduate Student, Computer Science</h2>
+        <div>
+            <h1>Kevin Moses Kothapalli</h1>
+            <h2>Graduate Student, Computer Science</h2>
+        </div>
+        <a class="home-button" href="#">Home</a>
     </header>
     <div class="container">
         <section class="about-me">
@@ -83,7 +96,7 @@
         <section class="resume">
             <h3 class="section-title">Resume</h3>
             <p>You can view my resume by clicking the link below:</p>
-            <p><a href="RESUME.pdf" target="_blank">Kevin Moses Kothapalli - Resume (PDF)</a></p>
+            <p><a href="resume.pdf" target="_blank">Kevin Moses Kothapalli - Resume (PDF)</a></p>
         </section>
         <section class="articles">
             <h3 class="section-title">Articles</h3>
