@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kevin Moses Kothapalli - Graduate Student, Computer Science</title>
+    <title>Kevin Moses Kothapalli - Personal Website</title>
     <style>
         body {
             font-family: 'Calibri', 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
@@ -23,10 +23,19 @@
             font-size: 2rem;
             color: #333;
         }
-        header h2 {
-            margin: 0;
-            font-size: 1rem;
-            color: #666;
+        nav {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        nav a {
+            background-color: #007aff;
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            margin: 0 10px;
         }
         .container {
             max-width: 800px;
@@ -73,17 +82,35 @@
 <body>
     <header>
         <h1>Kevin Moses Kothapalli</h1>
-        <h2>Graduate Student, Computer Science</h2>
+        <nav>
+            <a href="#spiritual">Spiritual</a>
+            <a href="#health">Health</a>
+            <a href="#career">Career</a>
+            <a href="#downtime">Downtime</a>
+            <a href="#academics">Academics</a>
+        </nav>
     </header>
     <div class="container">
-        <section class="about-me">
-            <h3 class="section-title">About Me</h3>
-            <p>Hello! I'm Kevin Moses Kothapalli, a graduate student in Computer Science. I am passionate about exploring the intersections of technology, innovation, and human potential. My interests lie in machine learning, artificial intelligence, and software development.</p>
+        <section id="spiritual" class="about-me">
+            <h3 class="section-title">Spiritual</h3>
+            <p>This section is dedicated to my spiritual journey and insights.</p>
         </section>
-        <section class="resume">
-            <h3 class="section-title">Resume</h3>
-            <p>You can view my resume by clicking the link below:</p>
+        <section id="health" class="about-me">
+            <h3 class="section-title">Health</h3>
+            <p>In this section, I share my health tips, routines, and wellness practices.</p>
+        </section>
+        <section id="career" class="career">
+            <h3 class="section-title">Career</h3>
+            <p>Here you can find information about my professional journey and achievements.</p>
             <p><a href="RESUME.pdf" target="_blank">Kevin Moses Kothapalli - Resume (PDF)</a></p>
+        </section>
+        <section id="downtime" class="about-me">
+            <h3 class="section-title">Downtime</h3>
+            <p>This section is all about my hobbies and how I spend my free time.</p>
+        </section>
+        <section id="academics" class="about-me">
+            <h3 class="section-title">Academics</h3>
+            <p>Here, I document my academic pursuits, research interests, and educational experiences.</p>
         </section>
         <section class="articles">
             <h3 class="section-title">Articles</h3>
