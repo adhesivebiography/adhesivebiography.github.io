@@ -35,7 +35,6 @@
             text-decoration: none;
             border-radius: 5px;
             font-weight: bold;
-            margin: 0 10px;
         }
         .container {
             max-width: 800px;
@@ -49,36 +48,18 @@
             border-bottom: 2px solid #eee;
             padding-bottom: 10px;
         }
-        .about-me, .career, .resume {
+        .spiritual {
             font-size: 1rem;
             line-height: 1.6;
             color: #666;
         }
-        .articles {
-            margin-top: 40px;
-        }
-        .articles ul {
-            list-style: none;
-            padding: 0;
-        }
-        .articles li {
-            background-color: #fff;
-            padding: 20px;
-            margin-bottom: 10px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-        }
-        .articles a {
-            text-decoration: none;
-            color: #007aff;
-            font-weight: bold;
-        }
-        .resume a {
-            text-decoration: none;
-            color: #007aff;
-            font-weight: bold;
-        }
         .hidden {
             display: none;
+        }
+        iframe {
+            width: 100%;
+            height: 600px;
+            border: none;
         }
     </style>
     <script>
@@ -94,33 +75,22 @@
         <h1>Kevin Moses Kothapalli</h1>
         <nav>
             <a href="#" onclick="showSection('spiritual')">Spiritual</a>
-            <a href="#" onclick="showSection('health')">Health</a>
-            <a href="#" onclick="showSection('career')">Career</a>
-            <a href="#" onclick="showSection('downtime')">Downtime</a>
-            <a href="#" onclick="showSection('academics')">Academics</a>
         </nav>
     </header>
     <div class="container">
-        <section id="spiritual" class="section hidden">
-            <h3 class="section-title">Spiritual</h3>
-            <p>This section is dedicated to my spiritual journey and insights.</p>
-        </section>
-        <section id="health" class="section hidden">
-            <h3 class="section-title">Health</h3>
-            <p>In this section, I share my health tips, routines, and wellness practices.</p>
+        <section id="spiritual" class="section spiritual">
+            <h3 class="section-title">God did not save Himself in order to save us</h3>
+            <p>..but themselves are gone into captivity. Isaiah 46:2<br>
+            ..save thyself. If thou be the Son of God, come down from the cross. Matthew 27:40</p>
+            <p>In Isaiah 46 we read about the gods of Babylon, and their powerlessness. Idols and idolaters, taken into captivity.</p>
+            <p>We see the contrast between the true God and the other gods, given by God Himself through the chapter and the book of Isaiah. Our God is a living god. He is the true God, there is none like Him.</p>
+            <p>They couldn't save themselves. They are dead and they <em>don't move from the places where they are kept</em> (Isaiah 46:7). They are a burden to those who carry them. But our Lord Jesus carried the cross, and <em>took away the sin of the world</em> (John 1:29). That sinless and precious blood was shed for you and me.</p>
+            <p><em>Those gods of Babylon couldn't save themselves. But He could, and yet He didn't, save Himself. Why not? To pay the price. We are doubly His, for He bought us twice.</em></p>
+            <p>Let us not think that we are better than the <em>descendants of Jacob</em> (Isaiah 46:3). We are idol worshippers too. Our idols may not be of stone, or gold, or silver but are very much in our hearts and minds. We have things of this world that take the place of God. Let us be very serious regarding the idols we have in our life, <em>for it is detestable to the LORD our God.</em> (Deuteronomy 7:25)</p>
         </section>
         <section id="career" class="section hidden">
             <h3 class="section-title">Career</h3>
-            <p>Here you can find information about my professional journey and achievements.</p>
-            <p><a href="RESUME.pdf" target="_blank">Kevin Moses Kothapalli - Resume (PDF)</a></p>
-        </section>
-        <section id="downtime" class="section hidden">
-            <h3 class="section-title">Downtime</h3>
-            <p>This section is all about my hobbies and how I spend my free time.</p>
-        </section>
-        <section id="academics" class="section hidden">
-            <h3 class="section-title">Academics</h3>
-            <p>Here, I document my academic pursuits, research interests, and educational experiences.</p>
+            <iframe src="RESUME.pdf"></iframe>
         </section>
     </div>
 </body>
